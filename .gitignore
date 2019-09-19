@@ -3,3 +3,4 @@
 
 package-lock.json
 .env
+/src/config/keys.ts

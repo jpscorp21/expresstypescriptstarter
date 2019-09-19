@@ -1,5 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
+import './config/db';
+import api from './api/api';
 
 dotenv.config();
 
@@ -16,6 +18,9 @@ app.use(express.urlencoded({extended: false}));
 
 
 // Rutas
+
+app.use('/api/v1', api);
+
 app.get('/', (req, res) => { 
     res.send('Bienvenidos al api rest');
 });
