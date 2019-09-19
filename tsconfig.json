@@ -2,15 +2,20 @@
     "compilerOptions": {
         "module": "commonjs", /* El estandar de node para los modulos */
         "esModuleInterop": true, /**/
+        "strict": true,
         "allowJs": true, /* Compila si existe javascript tambien */
         "checkJs": true, /* Corrige errores de Javascript */
-        "baseUrl": ".",
+        "baseUrl": "./",
         "sourceMap": true, /* Para la depuracion */
+        "removeComments": true,
         "moduleResolution": "node", /* Se usaran los modulos de node */
         "emitDecoratorMetadata": true, /* Utilizar decoradores */
         "experimentalDecorators": true, 
         "target": "es6", /* El ecmascript a transpilarse */
         "outDir": "dist", /* Carpeta de salida */
+        "types": [
+            "node"
+        ],
         "lib": [
             "es2015"
         ],
