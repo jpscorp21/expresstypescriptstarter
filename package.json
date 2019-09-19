@@ -9,6 +9,10 @@
   "author": "Jean Paul Saucedo",
   "license": "MIT",
   "devDependencies": {
+    "@types/express": "^4.17.1",
     "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }

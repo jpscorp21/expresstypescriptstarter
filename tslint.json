@@ -1,0 +1,8 @@
+{
+    "defaultSeverity": "error",    
+    "rules": {
+        "no-console": [false],
+        "quotemark": [true, "single"]
+    },
+    "rulesDirectory": []
+}
