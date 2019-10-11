@@ -50,6 +50,7 @@ coloresRouter.put('/:id', async (req: Request, res: Response) => {
         });
         res.status(201).json(data);
     } catch(e) {
+        console.log(e);
         res.status(500).json({
             status: 500,
             message: 'Internal Server Error',
